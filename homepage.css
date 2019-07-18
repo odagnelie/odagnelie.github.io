@@ -1,0 +1,84 @@
+BODY {
+	margin: 1em 0em 1em 0em;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+
+h1 {
+	color: #44479A;
+	font-size: 150%;
+	font-weight: normal;
+	text-align: center;
+}
+
+h2
+{
+	color: #44479A;
+	font-size: 140%;
+	font-weight: normal;
+	/*border-bottom: solid 1px #44479A*/
+}
+
+h2 a { color: #44479A; }
+
+
+h3 {
+	font-weight: normal;
+	font-variant: small-caps;
+}
+
+TABLE {
+	border: 0;
+	height: 100%;
+}
+
+A:link {
+	text-decoration: none;
+	color: #44479A;
+}
+
+A:visited {
+	text-decoration: none;
+	color: #9FA7FD;
+}
+
+A:hover {
+	text-decoration: underline;
+	color: #44479A;
+}
+
+ul
+{
+	line-height: 1.5em;
+	margin: 0.5em 0 0 2em;
+	padding: 0;
+}
+
+ol
+{
+	line-height: 1.5em;
+	margin: 0.5em 0 0 2em;
+	padding: 0;
+}
+
+li { margin: 0.4em 0; }
+
+ul
+{
+	list-style-type: square;
+	list-style-image: url('list_blue_square.jpg');
+}
+
+ul ul
+{
+	list-style-type: disc;
+	list-style-image: url('list_blue_arrow.jpg');
+}
+
+ul ul ul
+{
+	list-style-type: circle;
+	list-style-image: url('list_blue_hyphen.jpg');
+}
+
+}
